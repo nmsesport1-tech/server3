@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "de.servergrid.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MultiplayerScreenAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}

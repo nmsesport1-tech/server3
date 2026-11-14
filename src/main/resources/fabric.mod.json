@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "servergrid",
+  "version": "${version}",
+  "name": "Server Grid",
+  "description": "Multiplayer-Serverliste als cleanes 3er-Raster mit Suche.",
+  "authors": ["ttdarkX"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.servergrid.ServerGridClient"]
+  },
+  "mixins": ["servergrid.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
